@@ -1,0 +1,31 @@
+:root{
+
+  .cartes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .carte{
+    background-color: var(--couleur-blanc);
+    box-shadow : 0 0 5px rgba(0,0,0,0.5);
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    width: 352px;
+    height: 367px;
+    padding: 20px;
+    margin: 20px;
+
+    img{
+    height: 100%;
+    width: 100%;
+  }
+
+  }
+}

@@ -1,0 +1,15 @@
+:root{
+  .header-principal{
+    background-color: var(--couleur-noir);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .header-principal .conteneur{
+    height: 73px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

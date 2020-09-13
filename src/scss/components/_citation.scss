@@ -1,0 +1,14 @@
+:root{
+  .citation{
+    height: 404px;
+    display:flex;
+    align-items:center;
+
+    background-image: url("../../images/bg-citation.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+    color: var(--couleur-blanc);
+  }
+
+}
